@@ -1,0 +1,15 @@
+{
+  "name": "@ptdv001/style-guide",
+  "version": "0.0.1",
+  "description": "playing around with a style guide",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ptdv001/style-guide.git"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "open-sans-fontface": "^1.4.0"
+  },
+  "devDependencies": {}
+}

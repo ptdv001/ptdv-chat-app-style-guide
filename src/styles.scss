@@ -1,0 +1,10 @@
+// Variable overrides for Bootstrap
+@import "_variables";
+
+@import "third-party/bootstrap-custom";
+
+// Custom style overrides
+@import "_typography";
+
+// Customizes bootstrap components styling
+@import "components/components";
