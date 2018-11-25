@@ -1,3 +1,7 @@
 // Custom font Open Sans
-// @import "~open-sans-fontface/open-sans.scss";
-@import "node_modules\open-sans-fontface\open-sans.scss";
+
+// TODO
+//
+// Problem with fonts path when importing from another project. The vue cli gives an error
+// about font paths not being found "./fonts/SemiBold.." so it's searching in the wrong path.
+// @import "node_modules/open-sans-fontface/open-sans.scss";
