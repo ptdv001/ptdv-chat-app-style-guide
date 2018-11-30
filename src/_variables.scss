@@ -1,0 +1,63 @@
+// Bootstrap default variable overrides here
+
+// ===============================================================
+// Colors
+// ===============================================================
+$blue: #0e86ca;
+$white: #FFF;
+$black: #000;
+
+$gray-ish: #1c2534;
+$gray-400: #ced4da;
+$yellow-goldish: #FAFAC8; // Good for dyslexic readers
+
+$ptdv-black-opacity-15: rgba($black, .15);
+$ptdv-black-opacity-25: rgba($black, .25);
+$ptdv-black-opacity-35: rgba($black, .35);
+
+// One-Offs
+$ptdv-black-custom: rgba(#00081a, .60);
+
+// Themeing
+$primary: $blue;
+$secondary: $gray-400;
+$body-bg: $yellow-goldish;
+$brand-primary: $blue;
+$gray-base: $gray-ish;
+
+// Links
+$link-color: $blue;
+$link-hover-color: $blue;
+
+// Custom component colors
+
+// Forms
+$input-focus-color: $white;
+$input-box-shadow: none;
+
+// ===============================================================
+// Typography
+// ===============================================================
+$font-family-sans-serif: "Open Sans", Helvatica, Arial, sans-serif;
+$font-family-base: $font-family-base;
+
+$font-size-base: 1rem;
+
+$ptdv-font-size-small: ($font-size-base * .07);
+
+// ===============================================================
+// Component Layout Related
+// ===============================================================
+
+// Links
+$link-hover-decoration: none;
+
+// Tables
+$table-cell-padding: 1rem 2rem;
+
+// Alerts
+$alert-padding-y: 1.5rem;
+$alert-padding-x: 1.5rem;
+
+// Tabs
+$nav-tabs-border-width: .1rem;

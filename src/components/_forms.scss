@@ -1,0 +1,10 @@
+@import "../variables";
+
+.form-control {
+  &:active,
+  &.active,
+  &:focus,
+  &.focus {
+    color: $input-focus-color;
+  }
+}

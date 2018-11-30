@@ -4,3 +4,7 @@ npm module for file reading has trouble with sybmolic links on virtual drives er
 issue: https://github.com/nodejs/node/issues/6861
 Current: current solution, manually copy local repo into file
 ALTERNATIVE: use proper github repo?
+
+Setting up NPM for publish
+- npm adduser
+- npm publish --access public
