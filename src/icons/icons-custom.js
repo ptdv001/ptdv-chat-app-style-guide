@@ -25,4 +25,5 @@
   ];
 
   fontawesome.library.add(icons);
+  console.log(fontawesome.library);
 })(fontawesome);
