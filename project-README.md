@@ -14,12 +14,12 @@
 ## Client:
 
 ```
-    route               | about	                               | A | R | V |
+    route           | about                                    | A | R | V |
     ------------------------------------------------------------------------    
-    /			| Home (Login planned)                 | + | - | + | 
-    /chats		| List Chats (no active chat)          | + | - | + |
-    /chats/:id		| Chat + messages                      | + | - | + |
-    (?)/settings	| Planned Chat settings	               | ? | ? | ? |
+    /               | Home (Login planned)                     | + | - | + | 
+    /chats          | List Chats (no active chat)              | + | - | + |
+    /chats/:id		| Chat + messages                          | + | - | + |
+    (?)/settings	| Planned Chat settings                    | ? | ? | ? |
 ```
 
 ## Server:
