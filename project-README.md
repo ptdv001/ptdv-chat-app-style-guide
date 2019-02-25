@@ -1,13 +1,12 @@
 # CHAT-APP PROJECT:
 	
-~ Idea is an ongoing chat that captures learning from work, with each new 
-	  feature added across the Chats consistently "keeping finger in pie"
+~ Idea is an ongoing chat that captures learning from work, with each new feature added across the Chats consistently "keeping finger in pie"
 
 ## Features:
 
-+ multi chat room messaging
-+ send and receive chat messages
-+ i18n in English, French (Spanish, German, and Arabic Planned)
+- multi chat room messaging
+- send and receive chat messages
+- i18n in English, French (Spanish, German, and Arabic Planned)
 - Planned a11y for all users meeting WCAGAA
 - Planned themeable Style Guide for devs/designers
 - Planned OAuth login
