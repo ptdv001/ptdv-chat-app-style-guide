@@ -1,0 +1,31 @@
+	"scripts": {
+	  "postinstall": "npm run build",
+	  "build": "npm run clean & npm run copy & npm run sass",
+	  "clean": "rimraf \"./dist\"",
+	  "copy": "cpx \"src/**/*.!(scss)\" dist",
+	  "sass": "node-sass \"src/css/site.scss\" \"dist/css/site.css\"",
+	  "browser-sync": "cd dist && browser-sync start -s -f . --no-notify --host 0.0.0.0 --port 8080",
+	  "watch": "watch \"npm run copy & npm run sass\" src --interval=1",
+	  "serve": "concurrently --kill-others \"npm run watch\" \"npm run browser-sync\"",
+	  "wcag2a": "pa11y --standard WCAG2A ./src/index.html",
+	  "wcag2aa": "pa11y --standard WCAG2AA ./src/index.html",
+	  "wcag2aaa": "pa11y --standard WCAG2AAA ./src/index.html",
+	  "section508": "pa11y --standard Section508 ./src/index.html",
+	  "aria": "a11y ./src/index.html"
+	},
+
+	"devDependencies": {
+	  "browser-sync": "^2.26.3",
+	  "concurrently": "^4.1.0",
+	  "cpx": "^1.5.0",
+	  "cpy-cli": "^2.0.0",
+	  "express": "^4.16.4",
+	  "gulp": "3.9.1",
+	  "gulp-clean": "0.4.0",
+	  "gulp-copy": "1.1.0",
+	  "gulp-watch": "^5.0.1",
+	  "node-sass": "^4.11.0",
+	  "pa11y": "^5.1.0",
+	  "rimraf": "^2.6.2",
+	  "watch": "^1.0.2"
+	},
