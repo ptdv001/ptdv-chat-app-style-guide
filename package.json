@@ -1,15 +1,15 @@
 {
-  "name": "ptdv-style-guide",
+  "name": "ptdv-chat-app-style-guide",
   "version": "0.0.9",
   "description": "playing around with a style guide",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ptdv001/style-guide.git"
+    "url": "https://github.com/ptdv001/ptdv-chat-app-style-guide"
   },
   "scripts": {
-    "build": "gulp",
-    "prepublish": "gulp"
+    "build": "gulp build",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.8",
@@ -19,12 +19,11 @@
     "open-sans-fontface": "^1.4.0"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-clean": "^0.4.0",
     "gulp-cli": "^2.0.1",
     "gulp-concat": "^2.6.1",
-    "gulp-copy": "^4.0.1",
-    "run-sequence": "^2.2.1"
+    "gulp-copy": "^4.0.1"
   },
   "files": [
     "src",

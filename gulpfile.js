@@ -4,7 +4,6 @@
 
 const gulp = require('gulp');
 const clean = require('gulp-clean');
-const runSequence = require('run-sequence');
 const concat = require('gulp-concat');
 
 const SRC_PATH = 'src/icons';
@@ -32,8 +31,6 @@ gulp.task('concat-files', function () {
     .pipe(gulp.dest(DIST_PATH));
 });
 
-gulp.task('build', function (callback) {
-  runSequence('clean', 'concat-files', callback);
-});
+gulp.task('build', gulp.series('clean', 'concat-files'));
 
-gulp.task('default', ['build']);
+gulp.task('default',  gulp.series('build'));
