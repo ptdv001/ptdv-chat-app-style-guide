@@ -1,4 +1,4 @@
-# ptdv-chat-app-style-guide
+# ptdv-chat-app Project-Wide README
 	
 ~ Idea is an ongoing chat that captures learning from work, with each new feature added across the Chats consistently "keeping finger in pie"
 
