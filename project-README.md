@@ -7,9 +7,9 @@
 - multi chat room messaging
 - send and receive chat messages
 - i18n in English, French (Spanish, German, and Arabic Planned)
-- Planned a11y for all users meeting WCAGAA
-- Planned themeable Style Guide for devs/designers
-- Planned OAuth login
+- (Planned) a11y for all users meeting WCAGAA
+- (Planned) themeable Style Guide for devs/designers
+- (Planned) OAuth login
 
 ## Client:
 
